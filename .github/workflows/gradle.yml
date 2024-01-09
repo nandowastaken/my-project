@@ -33,7 +33,7 @@ jobs:
         arguments: build
         
     - name: Build and Push Docker Image
-      uses: mr-smithers-excellent/docker-build-push@v6
+      uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: lorschmith/demo
         registry: docker.io
